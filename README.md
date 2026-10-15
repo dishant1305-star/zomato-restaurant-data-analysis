@@ -1,11 +1,11 @@
-# 🍽️ Zomato Restaurant Data Analysis
+#  Zomato Restaurant Data Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project explores restaurant data from Zomato using Python to understand restaurant categories, customer engagement, ratings, online ordering, and approximate dining costs. The analysis uses **Pandas, NumPy, Matplotlib, and Seaborn** for data handling and visualization.
 
 The goal is to turn raw restaurant data into useful insights through exploratory data analysis (EDA) and clear visualizations.
 
-## 🎯 Objectives
+##  Objectives
 - Explore restaurant categories and their distribution.
 - Analyze customer votes across restaurant types.
 - Compare restaurants that accept online orders with those that do not.
@@ -14,7 +14,7 @@ The goal is to turn raw restaurant data into useful insights through exploratory
 - Identify restaurants with the highest and second-highest vote counts.
 - Compare online-order availability across restaurant categories.
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 - **Python** — data analysis
 - **Pandas** — data loading, cleaning, and grouping
 - **NumPy** — numerical operations
@@ -22,7 +22,7 @@ The goal is to turn raw restaurant data into useful insights through exploratory
 - **Seaborn** — statistical visualizations
 - **Jupyter Notebook** — interactive analysis
 
-## 📂 Dataset
+##  Dataset
 The notebook loads a CSV file named `Zomato-data.csv`.
 
 The dataset contains **148 rows and 7 columns**:
@@ -39,7 +39,7 @@ The dataset contains **148 rows and 7 columns**:
 
 > Make sure `Zomato-data.csv` is included in your repository, or update the file path in the notebook if your dataset is stored elsewhere.
 
-## 🔎 Workflow
+##  Workflow
 1. **Load the data** using Pandas.
 2. **Inspect the dataset** with DataFrame previews, `.info()`, and `.shape`.
 3. **Prepare ratings** by converting values such as `4.1/5` into numeric values such as `4.1`.
@@ -50,7 +50,7 @@ The dataset contains **148 rows and 7 columns**:
 8. **Visualize the data** using count plots, a histogram, a box plot, and a heatmap.
 9. **Compare online ordering** across restaurant categories with a pivot table.
 
-## 📊 Key Findings
+##  Key Findings
 Based on the current notebook outputs:
 
 - **Dataset size:** 148 restaurants and 7 columns.
@@ -74,7 +74,7 @@ Based on the current notebook outputs:
 
 In this dataset, Dining restaurants contribute the largest total number of votes. The category/order comparison also shows that more Dining restaurants in the sample do not offer online ordering than do offer it.
 
-## 📈 Visualizations
+##  Visualizations
 The notebook includes:
 - Restaurant type count plot
 - Total votes by restaurant type
@@ -84,7 +84,7 @@ The notebook includes:
 - Ratings by online-order availability box plot
 - Heatmap of restaurant type versus online-order availability
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -107,7 +107,7 @@ jupyter notebook
 
 Open the Zomato analysis notebook and run the cells in order.
 
-## 📁 Suggested Repository Structure
+##  Suggested Repository Structure
 ```text
 zomato-restaurant-data-analysis/
 ├── Zomato-data.csv
@@ -125,7 +125,7 @@ seaborn
 jupyter
 ```
 
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 - Exploratory Data Analysis (EDA)
 - Data inspection and quality checks
 - Data type conversion
@@ -135,20 +135,17 @@ jupyter
 - Data visualization and interpretation
 - Communicating findings from data
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Analyze rating patterns by restaurant category.
 - Compare average ratings and votes across online-order groups.
 - Investigate cost and rating relationships.
 - Add more robust handling for missing or inconsistent ratings.
 - Create an interactive dashboard to explore restaurant insights.
 
-## 👤 Author
+##  Author
 **Dishant Rana**  
 Aspiring Data Analyst | Python | Pandas | NumPy | Matplotlib | Seaborn
 
 - GitHub: [dishant1305-star](https://github.com/dishant1305-star)
-- LinkedIn: Add your LinkedIn profile URL here
+- LinkedIn: [[https://www.linkedin.com/in/dishant-rana-aaa195389/](https://www.linkedin.com/in/dishant-rana-aaa195389/)]
 
----
-
-⭐ If you find this project useful, consider starring the repository!
